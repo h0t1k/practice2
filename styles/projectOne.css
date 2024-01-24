@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section_project-one {
+  padding: 0px 135px 120px 135px;
+}
+.section_project-one .project_one-title-block {
+  display: flex;
+  flex-direction: column;
+}
+.section_project-one .project_one-title-block .project_one-title {
+  width: 277px;
+  color: #bdbdbd;
+  font-family: Vollkorn;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; /* 100% */
+}
+.section_project-one .project_one-title-block .project_one-subtitle {
+  color: #333;
+  font-family: Vollkorn;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 100% */
+}
+.section_project-one .project_one-title-block .line_project-one {
+  margin: 30px 0px 30px 0px;
+  width: 1170px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #f2f2f2;
+}
+.section_project-one .image_about-cars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.section_project-one .about_cars {
+  width: 721px;
+  height: 428px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Vollkorn;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px; /* 156.25% */
+}
+
+/*# sourceMappingURL=projectOne.css.map */

@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section_contact-information {
+  padding: 63px 0px 120px 135px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.section_contact-information .contact_information-block {
+  display: flex;
+  flex-direction: column;
+}
+.section_contact-information .contact_information-block .contact_information-title {
+  color: #bdbdbd;
+  font-family: Vollkorn;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; /* 100% */
+}
+.section_contact-information .contact_information-block .contact_information-subtitle {
+  color: #333;
+  font-family: Vollkorn;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 100% */
+  padding-bottom: 34px;
+}
+.section_contact-information .contact_information-block .adress_info {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  padding-bottom: 43px;
+}
+.section_contact-information .contact_information-block .contact_information-info {
+  color: #333;
+  font-family: Vollkorn;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section_contact-information .contact_information-block .contact_information-adress {
+  color: #333;
+  font-family: Vollkorn;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section_contact-information .contact_information-block .contact_number-phone {
+  color: #333;
+  padding-bottom: 52px;
+  font-family: Vollkorn;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section_contact-information .contact_information-block .contact_mail {
+  color: #333;
+  padding-bottom: 32px;
+  font-family: Vollkorn;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.section_contact-information .contact_information-block .button_feedback {
+  width: 222px;
+  height: 71px;
+  flex-shrink: 0;
+  background: #333;
+  border: 0;
+}
+.section_contact-information .contact_information-block .button_link-contact {
+  border: 0;
+  text-decoration: none;
+  color: #fff;
+  font-family: Vollkorn;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=contact.css.map */
